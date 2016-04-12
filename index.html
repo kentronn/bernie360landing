@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html class="no-js lt-ie9 ie8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if IE 10]> <html class="ie10" lang="en"> <![endif]-->
+<!--[if (gt IE 10)|!(IE)]> <html lang="en"> <![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="ico/favicon.png">
+
+    <title>Bernie Sanders - A Virtual Reality Event</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/magnific-popup.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body>
+
+    <div class="preloader">
+       <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+    </div>
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper cbp-af-header">
+      <div class="container">
+
+        <!-- Fixed navbar -->
+        <div class="navbar cbp-af-inner" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <h1><a class="navbar-brand scroll" href="#intro"><img src="img/sanders-logo.png"></a></h1>
+            </div>
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Hero Banner
+    ================================================== -->
+    <div id="intro-video" style="background-image: url( 'img/berniebg.jpg' ); background-repeat: no-repeat; background-size: cover; background-position: center left;">
+      <a class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=qyee_sxJpXc',containment:'#intro-video',autoPlay:true, mute:true, loop:true, startAt:0, stopAt:18, printUrl:false,showControls:false, opacity:1, quality: 'highres'}"></a>
+        <div class="item">
+          <div class="container">
+            <div class="row">
+              <div class="carousel-caption-center colour-white">
+                
+                <h1>A Future To Believe In</h1>
+                <h2>Bernie Sanders Speaks at Washington Square Park, New York City</h2>
+
+                <p>A stereoscopic 360 degree virtual reality experience</p>
+                <p><a class="btn btn-lg btn-empty" href="http://subvr.info:5000" role="button">WATCH THE EVENT</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-lg btn-primary" href="https://secure.actblue.com/contribute/page/lets-go-bernie" role="button">CONTRIBUTE</a></p>
+                <div class="small-text"><p>Created by Jeffrey Zatelli, Kent Rahman, and Dre Smith for Hack-the-Bern in NYC.</p></div>
+              </div>
+            </div>
+          </div>
+          <div class="overlay-bg"></div>
+        </div>
+    </div>
+
+
+
+    
+
+    
+
+ 
+  
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/scrollReveal.js"></script>
+    <script src="js/isotope.min.js" defer="defer"></script>
+    <script src="js/imagesloaded.pkgd.min.js" defer="defer"></script>
+    <script src="js/jquery.scrollTo.js" defer="defer"></script>
+    <script src="js/jquery.nav.js" defer="defer"></script>
+    <script src="js/jquery.magnific-popup.min.js" defer="defer"></script>
+    <script src="js/jqBootstrapValidation.js" defer="defer"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+
+      $(document).ready(function(){
+        $(".player").mb_YTPlayer();
+        isotope();
+      });
+
+    </script>
+
+  </body>
+</html>
