@@ -3,6 +3,8 @@ body {
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+
 div.small-text p {font-size:0.9em!important;font-weight:thin;}
 .no-padding {
   padding: 0 !important;
@@ -362,7 +364,7 @@ blockquote {
   width: 22px;
   height: 2px;
   border-radius: 1px;
-  background: white;
+  background: none;
 }
 .navbar-static-top,
 .navbar-fixed-top,
